@@ -1,5 +1,6 @@
-let ranTal = Math.floor(Math.random() * 11);
+const ranTal = Math.floor(Math.random() * 11);
 let forsoeg = 0;
+console.log(ranTal);
 
 let chekKnap = document.querySelector(".checker");
 let gaet;
