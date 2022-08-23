@@ -1,4 +1,4 @@
-let ranTal = Math.round(Math.random() * 11);
+let ranTal = Math.floor(Math.random() * 11);
 let forsoeg = 0;
 
 let chekKnap = document.querySelector(".checker");
