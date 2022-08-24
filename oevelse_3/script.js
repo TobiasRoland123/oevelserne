@@ -15,8 +15,8 @@ function checkTal() {
   if (gaet == ranTal) {
     alert(ranTal + " er rigtigt og du har brugt " + forsoeg + " forsøg. Prøv med et nyt tal :)");
   } else if (gaet > ranTal) {
-    console.log("Øv! " + gaet + " var for højt. Prøv igen :)");
+    alert("Øv! " + gaet + " var for højt. Prøv igen :)");
   } else {
-    console.log("Øv! " + gaet + " var for lavt. Prøv igen :)");
+    alert("Øv! " + gaet + " var for lavt. Prøv igen :)");
   }
 }
