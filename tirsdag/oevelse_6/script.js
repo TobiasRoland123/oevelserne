@@ -72,8 +72,6 @@ function start() {
   mainSection.appendChild(newArticle);
 }
 
-pic1.addEventListener("click", skiftBillede);
-
-function skiftBillede() {
+pic1.addEventListener("click", function () {
   pic1.src = "billeder/pingo.jpg";
-}
+});
